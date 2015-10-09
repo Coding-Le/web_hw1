@@ -1,0 +1,57 @@
+body {
+	background-color: white;
+	font:11pt;
+	color:#404040;
+	font-family: Georgia, Garamond;
+	background-image: url(logo.png);
+	text-align: center;
+}
+h1 {
+	font-size: 22pt;
+	font-family: "Century Gothic", Futura, Verdana;
+                color: rgb(164, 164, 0);
+                background-color: #F0F0F0;
+                font-weight: bold;
+                text-align: center;
+                text-decoration: underline;
+}
+div.background {
+  width: 1024px;
+  height: 570px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url('bg.jpg') no-repeat;
+  text-align: center;
+}
+div.transbox {
+  width: 338px;
+  height: 204px;
+  margin:30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+  /*filter:alpha(opacity=90);*/
+  opacity:0.9;
+}
+div.transbox p {
+  margin: 30px 40px;
+}
+h4 {
+	font-size: 22pt;
+	font-family: Verdana;
+	color:white;
+	padding-top: 6.5cm;
+	/*filter:alpha(opacity=0.6);*/
+        opacity:0.6;
+}
+h5 {
+	font-size: 36pt;
+	color:white;
+	text-align: center;
+}
+h6 {
+	font-size: 24pt;
+	color:orange;
+        text-align: center;
+	text-decoration: underline;
+}
